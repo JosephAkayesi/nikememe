@@ -108,7 +108,7 @@ function DynamicText(image) {
         textTitle = this.value;
         ctx.textAlign = 'center';
 
-        lengthWidth = image.width - (image.width * 0.5)
+        lengthWidth = image.width - (image.width * 0.3)
 
         var sumOfImageLength = image.width + image.height
 
