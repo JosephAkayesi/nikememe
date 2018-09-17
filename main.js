@@ -110,7 +110,9 @@ function DynamicText(image) {
 
         lengthWidth = image.width - (image.width * 0.5)
 
-        printAtWordWrap(ctx, textTitle, centerX, centerY, 30, lengthWidth );
+        var sumOfImageLength = image.width + image.height
+
+        printAtWordWrap(ctx, textTitle, centerX, centerY, sumOfImageLength*0.03, lengthWidth );
     });
 }
 
