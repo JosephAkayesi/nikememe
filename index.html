@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equic="X-UA-Compatible" content="ie=edge">
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="/img/logo.png" type="image/png">
+
+    <!--GOOGLE FONT FOR IMAGE TEXT-->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+    <!--BOOTSWATCH LUX THEME-->
+    <link href="https://bootswatch.com/4/lux/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-ML9h/UCooefre72ZPxxOHyjbrLT1xKV0AHON1J+OlOV2iwcYemqmWyMfTcfyzLJ1" crossorigin="anonymous">
+
+     
+    <!--FONT AWESOME CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    
+     <!--BASE STYLES-->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Nike Meme</title>
+  </head>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto mt-1 pt-1 px-5 pb-1 rounded text-center">
+                    <header class="heading">
+                        
+                        <h1>NIKE MEME CREATOR</h1>
+                        <h6>Made with <i class="fas fa-heart"></i> by Akayesi</h6>
+                    </header>
+                    <div class="container">
+                        <div class="card-body">
+                            <h6 class="card-subtitle text-muted pt-1">Create a Colin Kaepernick Nike Campaign Meme Quick and Easy</h6>
+                        </div>
+
+                        <canvas id="canvas" class=" mx-auto d-block" alt=""></canvas>
+        
+                    </div>
+                    <form>
+                        <fieldset>
+                            <div class="form-group pt-5">
+                                <label for="quote">Type in your quote</label>
+                                <textarea class="form-control" id="quote" rows="2" placeholder="Type your quote here..."></textarea>
+                            </div>
+                        </fieldset>
+                    </form>
+        
+                    <div class="btn-toolbar d-block justify-content-center p-2">
+                        <div class="btn-group mr-2 mb-2">
+                            <button type="button" class="btn btn-primary"id="uploadButton" >UPLOAD IMAGE</button>
+                        </div>
+                        <div class="btn-group mr-2 mb-2">
+                            <button type="button" class="btn btn-success" id="downloadButton" >DOWNLOAD</button>
+                        </div>
+                        <div class="form-group">
+                            <input type="file" id="uploadImage" style="display: none;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--CAMAN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

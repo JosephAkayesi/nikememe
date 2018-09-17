@@ -1,0 +1,16 @@
+.fa-heart {
+    color: red;
+}
+
+#canvas {
+    margin: auto;
+    background: #ececec;
+    width: 100%;
+    max-width: 400px;
+    height: 100%; 
+    justify-content: center;
+    display: flex;
+    object-fit: cover;
+
+}
+
