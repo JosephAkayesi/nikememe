@@ -112,7 +112,7 @@ function DynamicText(image) {
 
         var sumOfImageLength = image.width + image.height
 
-        printAtWordWrap(ctx, textTitle, centerX, centerY, sumOfImageLength*0.03, lengthWidth );
+        printAtWordWrap(ctx, textTitle, centerX, centerY, (sumOfImageLength*0.03), lengthWidth );
     });
 }
 
@@ -186,7 +186,7 @@ function downloadImage(canvas, fileName) {
     const link = document.createElement('a');
 
     link.download = fileName;
-    link.href = canvas.toDataURL('image/jpeg', 0.8);
+    link.href = canvas.toDataURL('image/jpeg', 0.1);
 
     event = new MouseEvent('click');
 
